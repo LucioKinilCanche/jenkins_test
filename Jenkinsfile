@@ -18,6 +18,7 @@ pipeline {
         uname
         hostname
         touch 1
+        echo "nuevo mensage"
         '''
       }
     }
