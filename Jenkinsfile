@@ -19,6 +19,7 @@ pipeline {
         hostname
         touch 1
         echo "nuevo mensage"
+        echo "new new"
         '''
       }
     }
