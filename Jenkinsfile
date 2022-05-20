@@ -8,7 +8,10 @@ pipeline {
     }
     stage('Test') {
       steps {
+        sh '''
         echo "Do something 2"
+        hostname
+        '''
       }
     }
     stage('Deploy') {
