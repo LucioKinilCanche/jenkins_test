@@ -9,8 +9,16 @@ pipeline {
     stage('Test') {
       steps {
         sh '''
+        ls
         echo "Do something 2"
+        pwd
+        ls -lrt
+        echo $password
+        pwd
+        uname
+        docker-ps
         hostname
+        touch 1
         '''
       }
     }
